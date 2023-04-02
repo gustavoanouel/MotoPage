@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: black;
+}
+
+header {
+  padding: 0.5em;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+}
+.imagen-principal {
+  background-image: url("../img/bg-header.jpg");
+  width: 100%;
+  background-size: cover;
+  height: 40em;
+}
+
+.section-1 {
+  padding: 4em 0 4em 0;
+}
+
+.parrafos {
+  width: 40%;
+  margin: 1.8em 0 0 10em;
+  display: inline-block;
+  vertical-align: top;
+}
+.parrafos p {
+  color: white;
+  font-size: 1em;
+  margin: 1em 0 1em 0;
+  padding-bottom: 1em;
+}
+
+.imagen-1 {
+  margin: 0 0 0 5em;
+  display: inline-block;
+}
+
+.imagen-1 img {
+  width: 400px;
+  height: 250px;
+  padding-top: 3em;
+}
+
+.caracteristicas {
+  background-color: #303030;
+  padding-top: 2em;
+}
+
+.caracteristicas h2 {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+.item {
+  float: left;
+  text-align: center;
+}
+
+#item1 {
+  margin-left: 70px;
+}
+#item2 {
+  margin-left: 100px;
+}
+#item3 {
+  margin-left: 120px;
+}
+
+.iconos {
+  padding: 3em 0 3em 0;
+  margin: 0 220px 0 280px;
+  width: 60%;
+  display: flow-root;
+}
+
+.iconos i {
+  color: white;
+  font-size: 3em;
+  padding-bottom: 0.3em;
+}
+
+.iconos p {
+  color: white;
+  font-size: 1.5em;
+}
+
+.galery {
+  padding: 4em 0 4em 0;
+  width: 80%;
+  display: flow-root;
+  margin: auto;
+}
+
+.galery img {
+  width: 300px;
+  height: 200px;
+  float: right;
+  margin-left: 17px;
+  margin-right: 30px;
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+}
+
+.galery img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.footer {
+  background-color: #303030;
+}
+
+.footer h3 {
+  color: white;
+  font-size: 1em;
+  padding: 1.5em;
+  text-align: center;
+}
